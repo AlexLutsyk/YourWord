@@ -166,12 +166,24 @@ body {
 .input-title {
   color: #cfd5e2;
   margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+.copyright {
+  color: #cfd5e2;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .input {
   border: none;
   border-bottom: 1px solid #cfd5e2;
   color: #cfd5e2;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 395px;
   max-width: 400px;
   align-items: center;
   margin-bottom: 10px;
@@ -183,10 +195,11 @@ body {
 }
 
 .button {
+  font-weight: bold;
   background-color: #9574ef;
   color: #ffffff;
   padding: 15px 15px;
-  width: 250px;
+  width: 175px;
   max-width: 350px;
   border-color: #9574ef;
   border-radius: 50px;
